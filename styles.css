@@ -1,0 +1,46 @@
+/* Reset body margin */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: #fff;
+    transition: background-color 0.5s ease;
+}
+
+/* Quote container styling */
+#quote-container {
+    max-width: 80%;
+    padding: 20px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 15px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+/* Quote text styling */
+#quote {
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 1.5;
+}
+
+/* Background colors for dynamic change */
+.bg1 {
+    background-color: #3498db;
+}
+.bg2 {
+    background-color: #e74c3c;
+}
+.bg3 {
+    background-color: #2ecc71;
+}
+.bg4 {
+    background-color: #f39c12;
+}
+.bg5 {
+    background-color: #01ffd5;
+}
